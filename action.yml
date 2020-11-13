@@ -1,6 +1,6 @@
 name: 'Pull Request title naming rules'
 description: 'Github action to enforce Pull Request title conventions'
-author: 'naveenk1223'
+author: ''
 inputs:
   regex:
     description: 'Regex to validate the pull request title'
