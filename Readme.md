@@ -31,7 +31,7 @@ jobs:
   title-check:
     runs-on: ubuntu-latest
     steps:
-      - uses: huytq-0932/action-pr-title@master
+      - uses: tr4n/action-pr-title@master
         with:
           regex: '.+' # Regex the title should match.
           allowed_prefixes: 'feature,fix,bugfix,patch,enhancement,hotfix' # title should start with the given prefix
